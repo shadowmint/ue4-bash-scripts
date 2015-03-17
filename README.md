@@ -8,14 +8,14 @@ Edit config.sh and setup the various paths
 
 ## commands
 
-### editor.sh
+#### editor.sh
 
 Open the editor
 
-### open.sh Foo
+#### open.sh Foo
 
 Open the project Foo in the projects directory in the editor.
 
-### build.sh Foo
+#### build.sh Foo
 
 Build the FooEditor target for project Foo in the projects directory.
