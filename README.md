@@ -6,16 +6,12 @@ For doing things on the command line, that should be simple!
 
 Edit config.sh and setup the various paths
 
-## commands
+A typical setup should look like this:
 
-#### editor.sh
+    dev/bin/ <--- This repo
+    dev/UnrealEngine <--- The UE4 engine source
+    dev/projects/MyProject <--- Your project
 
-Open the editor
+You can then do, this for example:
 
-#### open.sh Foo
-
-Open the project Foo in the projects directory in the editor.
-
-#### build.sh Foo
-
-Build the FooEditor target for project Foo in the projects directory.
+    ./bin/build.sh MyProject
